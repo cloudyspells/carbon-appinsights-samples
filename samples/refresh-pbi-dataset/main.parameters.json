@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "template": "./main.bicep"
+  },
+  "parameters": {
+    "environment": {
+      "value": "dev"
+    },
+    "projectName": {
+      "value": "co2-samples"
+    },
+    "location": {
+      "value": "westeurope"
+    },
+    "pbiUsername": {
+      "value": "roderick@cloudyspells.onmicrosoft.com"
+    },
+    "pbiGroupId": {
+      "value": "051b7b6f-d14a-4be3-bd6b-00a80db69d49"
+    },
+    "pbiDataSetId": {
+      "value": "e95ef83d-e95d-40c7-b899-5edffae3ee66"
+    },
+    "alertRuleScope": {
+      "value": "/subscriptions/66d91921-239f-40c5-a58b-6a2ee9f23a4b/resourceGroups/rg-weu-co2-insights-dev-funcapp/providers/Microsoft.Insights/components/ai-weu-co2-insights-dev"
+    },
+    "alertRuleRegion": {
+      "value": "westeurope"
+    }
+  }
+}
