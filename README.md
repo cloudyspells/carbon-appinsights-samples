@@ -14,5 +14,5 @@ how to run the sample.
 ## Samples
 
 - [Refresh a Power BI dataset when emissions are low](/samples/refresh-pbi-dataset/README.md)
-- [Queue an Azure Devops build when emissions are low](/samples/refresh-pbi-dataset/README.md)
+- [Queue an Azure Devops build when emissions are low](/samples/ado-queue-build/README.md)
 - [Trigger a GitHub Actions repository dispatch event](/samples/github-repo-dispatch/README.md)
