@@ -8,7 +8,7 @@ on:
 name: QA - PSRule Azure Practices
 
 jobs:
-  build-and-validate-bicep:
+  validate-psrule:
     runs-on: ubuntu-latest
     permissions:
       actions: write
