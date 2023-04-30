@@ -9,7 +9,12 @@ by a metric alert from Azure Application Insights as logged by
 The metric alert is triggered when carbon emissions in the region of the
 Power BI dataset are below a certain threshold.
 
+![Power BI Dataset refresh Logic App](./la-lowco2-refresh-pbi.png)
+
 ## Usage
+
+This sample, like all others, requires the _carbon-appinsights_ solution deployed
+for at least 1 monitored region.
 
 To use this sample you will need the _Group ID_ and _Dataset ID_ of a dataset to
 refresh in Power BI. You can get these from the Power BI portal by selecting
