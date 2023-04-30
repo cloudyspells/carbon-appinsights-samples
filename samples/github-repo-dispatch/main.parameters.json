@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": {
+      "value": "dev"
+    },
+    "projectName": {
+      "value": "co2samples"
+    },
+    "location": {
+      "value": "westeurope"
+    },
+    "gitHubOrgName": {
+      "value": "cloudyspells"
+    },
+    "gitHubRepoName": {
+      "value": "carbon-appinsights-samples"
+    },
+    "gitHubUserName": {
+      "value": "webtonize"
+    },
+    "alertRuleScope": {
+      "value": "/subscriptions/66d91921-239f-40c5-a58b-6a2ee9f23a4b/resourceGroups/rg-weu-co2-insights-dev-funcapp/providers/Microsoft.Insights/components/ai-weu-co2-insights-dev"
+    },
+    "alertRuleRegion": {
+      "value": "westeurope"
+    },
+    "lowEmissionTriggerThreshold": {
+      "value": 150
+    }
+  }
+}
