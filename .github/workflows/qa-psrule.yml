@@ -1,6 +1,7 @@
 on:
   workflow_dispatch:
   repository_dispatch:
+    types: [logic_app_demo]
   pull_request:
       branches:
       - 'main'
