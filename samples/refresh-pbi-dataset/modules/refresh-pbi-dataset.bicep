@@ -209,7 +209,7 @@ resource logicAppResource 'Microsoft.Logic/workflows@2019-05-01' = {
         value: {
           powerbi: {
             connectionId: pbiConnection.id
-            connectionName: 'powerbi-1'
+            connectionName: 'powerbi'
             id: '/subscriptions/${subscription().subscriptionId}/providers/Microsoft.Web/locations/westeurope/managedApis/powerbi'
           }
         }
