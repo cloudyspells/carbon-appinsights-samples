@@ -8,6 +8,8 @@ This sample demonstrates how to use the GitHub Repository Dispatch trigger with
 a Logic App triggered by Azure Monitor Metrics when the CO2 emissions in the
 choses region drop below a certain threshold.
 
+ ![GitHub repository dispatch Logic App](./la-lowco2-gh-dispatch.png)
+
 Use Case
 --------
 
