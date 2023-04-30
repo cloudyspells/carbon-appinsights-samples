@@ -40,3 +40,4 @@ rule:
   - Azure.Storage.ContainerSoftDelete
   - Azure.Storage.UseReplication
   - Azure.Resource.UseTags
+  - Azure.LogicApp.LimitHTTPTrigger
